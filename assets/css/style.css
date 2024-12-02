@@ -1,14 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
+  background-color: #FFF;
+  font-family: OCR A Std, monospace ;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #e0e0e0;
 }
 
 header,
 footer {
-  background-color: #333;
+  font-family: OCR A Std, monospace ;
+  background-color: #000;
   color: #fff;
   padding: 1em 0;
   text-align: center;
@@ -23,17 +25,45 @@ header li {
   padding: 0 1em;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+#Presentation {
+  text-align: center;
 }
 
-footer p {
-  margin: 0;
+#logo {
+  border: 2px, solid, #000 ;
+  border-radius : 200px ;
+  background-color: #fff;
+  padding: 20px ;
+  margin-left: 80px ;
 }
 
-img {
-  width: 10%;
-  margin: 0;
+#Formation {
+  background-color: #000;
+  border-radius : 50px ;
+  text-align: center;
+  color : #FFF
+}
+
+#MesExperiences {
+  background-color: #000;
+  border-radius : 50px ;
+  text-align: center;
+  color :#FFF
+}
+
+#MesCompetences {
+  text-align: center;
+}
+
+#Menu{
+  text-decoration: none;
+}
+
+#Menu:Hover{
+  background-color: #000;
+  color #FFF
+}
+
+Head{
+  font-family: OCR A Std, monospace ;
 }
